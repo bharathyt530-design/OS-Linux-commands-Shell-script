@@ -116,22 +116,26 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+<img width="328" height="62" alt="Screenshot 2026-07-24 220051" src="https://github.com/user-attachments/assets/73bca2df-ea95-4b11-825f-9cb2efaae5f1" />
 
 
 grep hello newfile 
 ## OUTPUT
+<img width="356" height="67" alt="Screenshot 2026-07-24 221025" src="https://github.com/user-attachments/assets/be0bbb7b-62f2-4009-8d04-1e5be03b4854" />
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+<img width="336" height="76" alt="Screenshot 2026-07-24 220112" src="https://github.com/user-attachments/assets/a19c740d-5d80-452b-be6a-482429eb1303" />
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+<img width="347" height="86" alt="Screenshot 2026-07-24 220140" src="https://github.com/user-attachments/assets/99b9271d-62a0-4185-bfa8-8ea546e228ac" />
 
 
 
@@ -139,15 +143,18 @@ cat newfile | grep -i -c "hello"
 ## OUTPUT
 
 
+<img width="322" height="67" alt="Screenshot 2026-07-24 220209" src="https://github.com/user-attachments/assets/fb4c2349-ff51-4a01-8108-e0be73141b3a" />
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+<img width="1107" height="267" alt="Screenshot 2026-07-24 220229" src="https://github.com/user-attachments/assets/faa1042e-c391-4e3c-bee2-c30a7bdf455b" />
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="397" height="88" alt="Screenshot 2026-07-24 220251" src="https://github.com/user-attachments/assets/7848a0f4-bacd-492b-82d6-7b2430b327fc" />
 
 
 cat < newfile 
