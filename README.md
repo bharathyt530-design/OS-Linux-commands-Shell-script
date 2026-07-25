@@ -178,16 +178,19 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+<img width="377" height="88" alt="image" src="https://github.com/user-attachments/assets/3e60ef6d-dc0d-4a75-80db-071676005a8a" />
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+<img width="377" height="88" alt="image" src="https://github.com/user-attachments/assets/3e60ef6d-dc0d-4a75-80db-071676005a8a" />
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
+<img width="393" height="92" alt="image" src="https://github.com/user-attachments/assets/2ef9ac91-701e-486f-88f3-9b870e0abb4f" />
 
 
 
@@ -195,42 +198,51 @@ egrep -w '(H|h)ell[a-z]' newfile
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+<img width="353" height="67" alt="image" src="https://github.com/user-attachments/assets/71663751-f54b-4d93-a962-826848fef1de" />
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+<img width="357" height="83" alt="image" src="https://github.com/user-attachments/assets/135df9e4-7968-49da-8c6e-f1e2bf12566a" />
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
+<img width="352" height="68" alt="image" src="https://github.com/user-attachments/assets/e7c176fb-c832-45e7-907c-d8ca8e1d4cf1" />
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+<img width="323" height="91" alt="image" src="https://github.com/user-attachments/assets/c63e8922-7cf4-4cc8-872a-0349b56e7c58" />
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+<img width="357" height="77" alt="image" src="https://github.com/user-attachments/assets/b039445d-6234-4ddd-888b-c4366a3b8441" />
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+<img width="337" height="71" alt="image" src="https://github.com/user-attachments/assets/61ad6c72-c6ef-4eb0-b980-b138e7ce7676" />
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+<img width="403" height="63" alt="image" src="https://github.com/user-attachments/assets/efab3988-da15-4540-89fc-9139404c4596" />
 
 
 egrep l{2} newfile
 ## OUTPUT
+<img width="337" height="92" alt="image" src="https://github.com/user-attachments/assets/fcfb553f-650d-4c21-9c5c-60dd9edd8932" />
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="400" height="105" alt="image" src="https://github.com/user-attachments/assets/9edd3e41-0e58-42d0-a98d-9706ecb83945" />
 
 
 cat > file23
