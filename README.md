@@ -297,6 +297,7 @@ sed -n -e '1,5p' file23
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+
 <img width="370" height="108" alt="image" src="https://github.com/user-attachments/assets/e09fed97-008a-4d3e-9a11-5571f9531832" />
 
 
@@ -305,7 +306,8 @@ sed -n -e '2,/Joe/p' file23
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
-****<img width="387" height="83" alt="image" src="https://github.com/user-attachments/assets/8c60e2e3-ec8f-44b5-84e6-effc8b418c58" />
+****
+<img width="387" height="83" alt="image" src="https://github.com/user-attachments/assets/8c60e2e3-ec8f-44b5-84e6-effc8b418c58" />
 
 
 seq 10 
@@ -506,23 +508,22 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="518" height="347" alt="image" src="https://github.com/user-attachments/assets/eb65dd62-a785-400f-8045-fbc09086a5ab" />
 
  
 ls file1
 ## OUTPUT
+<img width="482" height="57" alt="image" src="https://github.com/user-attachments/assets/8f1a3710-9669-46c2-9947-94d96dbdd495" />
+ 
+echo $?
+## OUTPUT 
+ <img width="452" height="63" alt="image" src="https://github.com/user-attachments/assets/4151bf00-7323-4009-a33b-e308df026610" />
 
-echo $?
-## OUTPUT 
-./one
-bash: ./one: Permission denied
- 
-echo $?
-## OUTPUT 
- 
 abcd
  
 echo $?
  ## OUTPUT
+<img width="506" height="71" alt="image" src="https://github.com/user-attachments/assets/39936266-bd95-4a85-abf7-692f909bf2dc" />
 
 
  
@@ -555,6 +556,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+<img width="432" height="240" alt="image" src="https://github.com/user-attachments/assets/0bbdf338-4516-4705-9de9-e9a6b1ce74f1" />
 
 
 
@@ -562,6 +564,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="555" height="82" alt="image" src="https://github.com/user-attachments/assets/f5db993e-629e-4087-960a-d2a106305e99" />
 
 
 # check file ownership
@@ -589,6 +592,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="407" height="57" alt="image" src="https://github.com/user-attachments/assets/556669b4-d65f-4f9a-8d47-b9ba6ebfbc19" />
 
 # check if with file location
 cat>ifnested.sh 
