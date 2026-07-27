@@ -529,7 +529,7 @@ echo $?
  
 # mis-using string comparisons
 
-cat < strcomp.sh 
+cat < srtcomp.sh 
 ```bash
 \#!/bin/bash
 val1=baseball
@@ -639,6 +639,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="458" height="105" alt="image" src="https://github.com/user-attachments/assets/396dba15-fa96-4032-be97-1bac05f7af2f" />
 
 
 
@@ -683,6 +684,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="386" height="80" alt="image" src="https://github.com/user-attachments/assets/b77ea5e5-f17b-4d6a-981f-d13e9a50d456" />
 
 # check if a file
 cat > ifnested.sh 
@@ -732,6 +734,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="486" height="100" alt="image" src="https://github.com/user-attachments/assets/3a7dec53-2f7d-45c6-bbd6-4f1c4f2cae26" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -760,6 +763,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="423" height="66" alt="image" src="https://github.com/user-attachments/assets/e506b503-b598-4945-af17-a25edc2d67b8" />
 
 
 # testing compound comparisons
@@ -776,6 +780,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="451" height="67" alt="image" src="https://github.com/user-attachments/assets/61804a22-8cc3-47ae-af6e-64f12f5c8134" />
 
 # using the case command
 cat >casecheck.sh 
@@ -887,6 +892,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+<img width="412" height="167" alt="image" src="https://github.com/user-attachments/assets/1982cf52-4184-4d93-9aad-dc497748e25c" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -1148,6 +1155,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="410" height="102" alt="image" src="https://github.com/user-attachments/assets/576557cb-18b0-4057-94ab-c1a876e14b29" />
 
 
 # RESULT:
